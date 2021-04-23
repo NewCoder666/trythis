@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+
+  <!-- LINK Style.css File -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+
+    <!-- TABLE DATA FILES -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.14/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,800&display=swap" rel="stylesheet">
+
+  <title>Aunty Ann's Bootstrap Website</title>
+</head>
+<body>
+  <!-- Conteriner TOP LOGO, NAVBAR, 4 Images -->
+  <div class="container-fluid">
+
+    <!-- TOP LOGO IMAGES -->
+    <div class="row justify-content-center"> 
+      <div class="col-md-4 col-lg-4 col-sm-6 text-center text-md-left p-2">
+        <img class="logo-img" src="assets/img/logo.png" alt="" />
+      </div>
+      <div class="col--md-4 col-lg-4 text-center text-md-left p-2">
+        <img class="top-center-img" src="assets/img/top-center.png" alt="" />
+        <p class="downof-top-center-img">
+          Our Family Serving your Family Since 1958.
+        </p>
+      </div>
+      <div class="col-md-4 col-lg-4 text-center text-md-left p-2" id="top-right">
+        <p class="top-right-contact">
+          San Francisco & North Bay 415.749.3650<br>Peninsula 650.573.1000<br>East
+          Bay 925.933.2273
+        </p>
+        <button type="button" class="btn btn-outline-success btn-sm" id="Contact_us-btn">Contact us</button>
+      </div>
+    </div> <!-- TOP LOGO IMG ENDS -->
+
+    <!-- NAVBAR -->
+    <div class="row">
+      <div class="col-md-12 col-lg-12 text-center text-md-left p-2" style="padding: 0;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  About Us
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #90b4aa;">
+                  <a class="dropdown-item" href="#">Who We Are</a>
+                  <a class="dropdown-item" href="#">Services</a>
+                  <a class="dropdown-item" href="#">Why Work with Us</a>
+                  <a class="dropdown-item" href="#">Affiliations and Awards</a>
+                  <a class="dropdown-item" href="#">Map and Driving<br>Directios</a>
+                  <a class="dropdown-item" href="#">Contact Us</a>
+                </div>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">In-House Staffing Blog</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Nanny Agency
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #90b4aa;">
+                  <a class="dropdown-item" href="#">Newborn Nannies</a>
+                  <a class="dropdown-item" href="#">Nannies</a>
+                  <a class="dropdown-item" href="#">Family Assistants</a>
+                  <a class="dropdown-item" href="#">On-Call Nannies &<br>Babysitters</a>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Domestic Staff
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #90b4aa;">
+                  <a class="dropdown-item" href="#">Household Staff</a>
+                  <a class="dropdown-item" href="#">Estate Staff</a>
+                  <a class="dropdown-item" href="#">Senier Care Staff</a>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Private Office Staff
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #90b4aa;">
+                  <a class="dropdown-item" href="#">Personal Assistants</a>
+                  <a class="dropdown-item" href="#">Excecutive Assistants</a>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Hire Staff
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #90b4aa;">
+                  <a class="dropdown-item" href="#">Employer Information</a>
+                  <a class="dropdown-item" href="#">Employer FAQ</a>
+                  <a class="dropdown-item" href="#">Employer Resources</a>
+                  <a class="dropdown-item" href="#">Employer Testimonials</a>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Find a Job
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #90b4aa;">
+                  <a class="dropdown-item" href="#">Job Seeker Information</a>
+                  <a class="dropdown-item" href="#">Job Seeker FAQ</a>
+                  <a class="dropdown-item" href="#">Job Seeker Testimonials</a>
+                  <a class="dropdown-item" href="#">Job Application</a>
+                  <a class="dropdown-item" href="#">Browse Jobs</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div> <!-- NAVBAR ENDS  -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-12">
+          <p class="inner-text">Search our listings to apply for a specific childcare, domestic, estate staff, or
+            personal assistant job, or click here to fill out a <a href="" class="text-1">general job
+              application</a><br>
+            and/or upload your resume.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 col-lg-3 text-center text-md-left p-2">
+          <img src="assets/img/childcare-jobs.jpg" alt="">
+        </div>
+        <div class="col-md-3 col-lg-3 text-center text-md-left p-2">
+          <img src="assets/img/household-jobs.jpg" alt="">
+        </div>
+        <div class="col-md-3 col-lg-3 text-center text-md-left p-2">
+          <img src="assets/img/estate-staff-jobs.jpg" alt="">
+        </div>
+        <div class="col-md-3 col-lg-3 text-center text-md-left p-2">
+          <img src="assets/img/private-office-jobs.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div><!-- Conteriner TOP LOGO, NAVBAR, 4 Images ENDS -->
+
+  <!-- TABLE DATA -->
+  <div class="container p-30" style="padding-top: 6%; padding-bottom:10%;">
+    <div class="row">
+      <div class="col-md-12 main-datatable">
+        <div class="card_body">
+          <div class="row d-flex">
+            <div class="col-sm-4 createSegment">
+              <a class="btn dim_button create_new"> <span class="glyphicon glyphicon-plus"></span> Create New</a>
+            </div>
+            <div class="col-sm-8 add_flex">
+              <div class="form-group searchInput">
+                <label for="email">Search:</label>
+                <input type="search" class="form-control" id="filterbox" placeholder=" ">
+              </div>
+            </div>
+          </div>
+          <div class="overflow-x">
+            <table style="width:100%;" id="filtertable" class="table cust-datatable dataTable no-footer">
+              <thead>
+                <tr>
+                  <th style="min-width:50px;">S.No.</th>
+                  <th style="min-width:150px;">Name</th>
+                  <th style="min-width:150px;">Mode</th>
+                  <th style="min-width:100px;">Place</th>
+                  <th style="min-width:100px;">Date</th>
+                  <th style="min-width:150px;">Status</th>
+                  <th style="min-width:150px;">Company</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Ankit Sharma</td>
+                  <td><span class="mode mode_process">Processing</span></td>
+                  <td>Jaipur</td>
+                  <td>17-Apr-2020</td>
+                  <td><span class="mode mode_on">Active</span></td>
+                  <td>
+                    <div class="btn-group"> 
+                      Parv India 
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Surbhi Chaudhary</td>
+                  <td><span class="mode mode_done">Completed</span></td>
+                  <td>Jodhpur</td>
+                  <td>21-Mar-2020</td>
+                  <td><span class="mode mode_off">Inactive</span></td>
+                  <td>
+                    <div class="btn-group">
+                      Mahindra Group
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Akansha Vyas</td>
+                  <td><span class="mode mode_process">Processing</span></td>
+                  <td>Udipur</td>
+                  <td>08-Dec-2020</td>
+                  <td><span class="mode mode_on">Active</span></td>
+                  <td>
+                    <div class="btn-group">
+                      Reliance Group
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Saurav Meena</td>
+                  <td><span class="mode mode_done">Completed</span></td>
+                  <td>Ajmer</td>
+                  <td>27-Nov-2020</td>
+                  <td><span class="mode mode_off">Inactive</span></td>
+                  <td>
+                    <div class="btn-group">
+                      Infosis
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Harsh Pathak</td>
+                  <td><span class="mode mode_process">Processing</span></td>
+                  <td>Delhi</td>
+                  <td>06-Apr-2020</td>
+                  <td><span class="mode mode_on">Active</span></td>
+                  <td>
+                    <div class="btn-group">
+                      Amazon
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Priya Sharma</td>
+                  <td><span class="mode mode_done">Completed</span></td>
+                  <td>Ganganagar</td>
+                  <td>28-Feb-2020</td>
+                  <td><span class="mode mode_off">Inactive</span></td>
+                  <td>
+                    <div class="btn-group">
+                      Microsoft
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>Vikas Dubey</td>
+                  <td><span class="mode mode_process">Processing</span></td>
+                  <td>Jodhpur</td>
+                  <td>17-Mar-2020</td>
+                  <td><span class="mode mode_on">Active</span></td>
+                  <td>
+                    <div class="btn-group">
+                      Google
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>8</td>
+                  <td>Ashmita Aman</td>
+                  <td><span class="mode mode_done">Completed</span></td>
+                  <td>Badmer</td>
+                  <td>15-Jul-2020</td>
+                  <td><span class="mode mode_off">Inactive</span></td>
+                  <td>
+                    <div class="btn-group">
+                      Adobe
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>9</td>
+                  <td>Parul Singh</td>
+                  <td><span class="mode mode_process">Processing</span></td>
+                  <td>Pali</td>
+                  <td>22-May-2020</td>
+                  <td><span class="mode mode_on">Active</span></td>
+                  <td>
+                    <div class="btn-group">
+                      Mahindra Group
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>10</td>
+                  <td>Aman Joshi</td>
+                  <td><span class="mode mode_done">Completed</span></td>
+                  <td>Siker</td>
+                  <td>29-Jan-2020</td>
+                  <td><span class="mode mode_off">Inctive</span></td>
+                  <td>
+                    <div class="btn-group">
+                      ICICI Bank
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>11</td>
+                  <td>Rohit Pareek</td>
+                  <td><span class="mode mode_process">Processing</span></td>
+                  <td>Jaipur</td>
+                  <td>24-Aug-2020</td>
+                  <td><span class="mode mode_on">Active</span></td>
+                  <td>
+                    <div class="btn-group">
+                      Deutsche Bank
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>12</td>
+                  <td>Hritik Dadchich</td>
+                  <td><span class="mode mode_done">Completed</span></td>
+                  <td>Ajmer</td>
+                  <td>12-Sep-2020</td>
+                  <td><span class="mode mode_off">Inctive</span></td>
+                  <td>
+                    <div class="btn-group">
+                      Magicbricks
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>13</td>
+                  <td>Mohit Khandelwal</td>
+                  <td><span class="mode mode_process">Processing</span></td>
+                  <td>Hanumangarh</td>
+                  <td>02-Oct-2020</td>
+                  <td><span class="mode mode_on">Active</span></td>
+                  <td>
+                    <div class="btn-group">
+                      Parv India
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>14</td>
+                  <td>Manish Soni</td>
+                  <td><span class="mode mode_done">Completed</span></td>
+                  <td>Jaisalmer</td>
+                  <td>29-Jul-2020</td>
+                  <td><span class="mode mode_off">Inctive</span></td>
+                  <td>
+                    <div class="btn-group">
+                      Adobe
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>15</td>
+                  <td>Lokendra Shekhawat</td>
+                  <td><span class="mode mode_process">Processing</span></td>
+                  <td>Ajmer</td>
+                  <td>18-Nov-2020</td>
+                  <td><span class="mode mode_on">Active</span></td>
+                  <td>
+                    <div class="btn-group">
+                      Mahindra Group
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>16</td>
+                  <td>Neha Singh</td>
+                  <td><span class="mode mode_done">Completed</span></td>
+                  <td>Jodhpur</td>
+                  <td>20-Jun-2020</td>
+                  <td><span class="mode mode_off">Inctive</span></td>
+                  <td>
+                    <div class="btn-group">
+                      Deutsche Bank
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>17</td>
+                  <td>Bhawna Saini</td>
+                  <td><span class="mode mode_process">Processing</span></td>
+                  <td>Jaipur</td>
+                  <td>24-Feb-2020</td>
+                  <td><span class="mode mode_on">Active</span></td>
+                  <td>
+                    <div class="btn-group">
+                      Parv India
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>18</td>
+                  <td>Kaushal Ladha</td>
+                  <td><span class="mode mode_done">Completed</span></td>
+                  <td>Ganganagar</td>
+                  <td>17-Sep-2020</td>
+                  <td><span class="mode mode_on">Active</span></td>
+                  <td>
+                    <div class="btn-group">
+                      ICICI Bank
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>19</td>
+                  <td>Himanshi Agarwal</td>
+                  <td><span class="mode mode_process">Processing</span></td>
+                  <td>Siker</td>
+                  <td>18-Oct-2020</td>
+                  <td><span class="mode mode_off">Inactive</span></td>
+                  <td>
+                    <div class="btn-group">
+                      Microsoft
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>20</td>
+                  <td>Rajat Khurana</td>
+                  <td><span class="mode mode_done">Completed</span></td>
+                  <td>Udaipur</td>
+                  <td>02-Dec-2020</td>
+                  <td><span class="mode mode_on">Active</span></td>
+                  <td>
+                    <div class="btn-group">
+                      Parv India
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- TABLE DATA ENDS -->
+</div>
+</div>
+</div>
+</div>
+<!-- FOOTER -->
+<footer class="bg-light text-center text-lg-start" style="background-color: #90b4aa !important;">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Search Jobs</h5>
+          <p class="bottom-search">
+            <form class="form-inline my-2 my-lg-0" style="padding-left:20%;">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="text-center p-3">
+      © Copyright 2006 - 2021 Aunt Ann's In-House Staffing - Nanny, Housekeeper, and Estate Agency. All rights
+      reserved. Privacy Policy · Terms of Use - Powered by Staffing Website Technology
+    </div>
+</footer> <!-- FOOTER ENDS -->
+
+
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
+
+<!-- TABLE DATA USEFUL FILES -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.14/js/jquery.dataTables.min.js"></script>
+
+<!-- LINK JS FILE -->
+<script src="js/main.js"></script>
+</body>
+
+</html>
